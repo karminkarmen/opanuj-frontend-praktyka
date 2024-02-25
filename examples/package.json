@@ -7,7 +7,8 @@
     "example": "node ./scripts/vite.mjs",
     "test": "vitest",
     "test:e2e": "npx playwright test",
-    "lint": "npx eslint . --ext .js,.ts,.jsx,.tsx"
+    "lint": "npx eslint . --ext .js,.ts,.jsx,.tsx",
+    "lint:fix": "npx eslint . --ext .js,.ts,.jsx,.tsx --fix"
   },
   "repository": {
     "type": "git",
