@@ -1,4 +1,4 @@
-import { VALIDATION_MESSAGES, validate } from "./validator";
+import { VALIDATION_MESSAGES, validate } from "./validation";
 
 function app() {
   const input: HTMLInputElement | null = document.querySelector('#input_to_validate');
