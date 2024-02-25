@@ -7,6 +7,7 @@ export const validate = (inputValue: number): boolean => {
   if (!inputValue) {
     return false;
   }
+
   const isGreaterThan = getIfIsGreaterThan(0);
   const isLowerThan = getIfIsLowerThan(100);
 
